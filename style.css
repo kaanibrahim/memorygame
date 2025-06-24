@@ -5,6 +5,7 @@
 
 a {
     text-decoration: none;
+    color: darkorange;
 }
 
 h2 {
@@ -15,17 +16,18 @@ h2 {
       display: grid;
       grid-template: repeat(5, 1fr) / repeat(5, 1fr);
       gap: 10px;
-      width: 290px;
+      width: 80%;
+      height: 80vw;
+      max-width: 500px;
+      max-height: 500px;
       margin: auto;
 }
 
 .box {
     border: 5px solid black;
-    width: 50px;
-    height: 50px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     font-size: 50px;
 }
 
@@ -35,8 +37,10 @@ h2 {
 }
 
 ul {
-    width: 290px;
+    width: 80%;
+    max-width: 500px;
     margin: auto;
+    display: grid;
 }
 
 li {
