@@ -16,8 +16,8 @@ h2 {
       display: grid;
       grid-template: repeat(5, 1fr) / repeat(5, 1fr);
       gap: 10px;
-      width: 80%;
-      height: 80vw;
+      width: 80lvw;
+      height: 80lvw;
       max-width: 500px;
       max-height: 500px;
       margin: auto;
@@ -37,7 +37,7 @@ h2 {
 }
 
 ul {
-    width: 80%;
+    width: 80lvw;
     max-width: 500px;
     margin: auto;
     display: grid;
