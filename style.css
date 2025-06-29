@@ -18,8 +18,6 @@ h2 {
       gap: 10px;
       width: 80lvw;
       height: 80lvw;
-      max-width: 500px;
-      max-height: 500px;
       margin: auto;
 }
 
@@ -31,7 +29,7 @@ h2 {
     font-size: 50px;
 }
 
-.box:active, .box:hover {
+.box:hover {
     background-color: black;
     color: white;
 }
